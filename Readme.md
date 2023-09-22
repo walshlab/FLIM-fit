@@ -31,13 +31,16 @@ The quickest way to start is to open the GUI from a command line terminal. You m
 
 single-component decay function: 
 ![image](https://github.com/walshlab/FLIM-fit/assets/49083235/53de4b62-4ac2-4db3-b42b-cdd1f18efd02)
+
 Bi-component decay function:
 ![image](https://github.com/walshlab/FLIM-fit/assets/49083235/19ecdbde-ca2b-43a2-9148-4285c0fb3a08)
+
 Pixels with the photon number at the peak lower than the threshold are ignored. Three fitting methods: 
 LSQ: Least-square. The outputted α1(%), and α2(%) are calculated by normalizing with the sum of α1 and α2
 LSQN: Normalization of the actual decay curve to 0 to 1 before implementing least-square curve fitting, so it outputs α1(%), and α2(%) directly.
 MLE: Maximum likelihood estimation. MLE calculates the probability that a particular value of n appears in a particular time channel with the Poisson distribution. 
 ![image](https://github.com/walshlab/FLIM-fit/assets/49083235/8c421b80-a748-40ba-900a-1068ba44375e)
+
 For the photon number at each time point, the k is the fitted photon number, and λ is the actual photon number. Then it optimizes model parameters until the sum of probabilities is at maximum. Finally, the outputted α1(%), and α2(%) are calculated by normalizing with the sum of α1 and α2.
 9. Once fitting is done, Choose the option menu to visualize different FLIM images. Click the SAVE LIFETIME IMAGES to save all the FLIM output matrices as .tif images.
 Cell Level Analysis (Only applicable for two-component decay fitting)
