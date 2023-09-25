@@ -37,7 +37,8 @@ single-component decay function:
 Bi-component decay function:
 
 ![image](https://github.com/walshlab/FLIM-fit/assets/49083235/19ecdbde-ca2b-43a2-9148-4285c0fb3a08)
-Pixels with the photon number at the peak lower than the threshold are ignored. Three fitting methods: 
+
+8. Pixels with the photon number at the peak lower than the threshold are ignored. Three fitting methods: 
 LSQ: Least-square. The outputted α1(%), and α2(%) are calculated by normalizing with the sum of α1 and α2
 LSQN: Normalization of the actual decay curve to 0 to 1 before implementing least-square curve fitting, so it outputs α1(%), and α2(%) directly.
 MLE: Maximum likelihood estimation. MLE calculates the probability that a particular value of n appears in a particular time channel with the Poisson distribution. 
