@@ -16,10 +16,11 @@ FLIMfit relies on the following excellent packages (which are automatically inst
 •	scikit-learn
 •	CTkMessagebox
 •	scipy
+•	sdtfile
 ### Run Flimfit locally: 
 The quickest way to start is to open the GUI from a command line terminal. You might need to open an anaconda prompt if you did not add anaconda to the path: python -m flimfit
 # Step-by-step demo
-1. Download this folder of images and unzip it. These are a subset of the test images.
+1. Download this folder of Test images(https://github.com/walshlab/FLIM-fit/blob/main/GUI/Test%20Images.zip) and unzip it. These are a subset of the test images.
 2. Start the GUI with Python -m Flimfit.
 ## Image Read:
 3. Open a temporal point spread function (TPSF) image (X x Y x T, 256 x 256 x 256 (12.5ns)) from the folder with the OPEN TPSF button. The format can be .asc file (generated from SPCImage software (Becker & Hickl) -> Export -> Decay Traces) or .sdt file (generated from SPCM64(Becker & Hickl)).
