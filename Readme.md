@@ -1,7 +1,7 @@
 # Introduction
 This Python code GUI aims to fit the fluorescence lifetime decay images and calculate the lifetime metrics of each cell.
 FLIMFit was written by Linghao Hu. To learn about the principles of FLIMfit, please refer to the book [W. Becker, The bh TCSPC Handbook].
-Please see the install instructions below, and also check out the details for more information.
+Please see the install instructions below, and also check out the details for more information in github (https://github.com/walshlab/FLIM-fit/tree/main).
 # GUI:
 ![image](https://github.com/walshlab/FLIM-fit/assets/49083235/3cf8d1dd-5908-468c-b704-5d16e593dd00)
 # Installation:
