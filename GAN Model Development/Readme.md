@@ -30,7 +30,7 @@ Two datasets with different photon numbers (peak of the decay curve) will be gen
 ![image](https://github.com/walshlab/FLIM-fit/assets/49083235/0f1c62d4-237e-4f0f-9708-d8248aa30d27)
 - FLIM fitting result after deconvolution
 
-![image](https://github.com/walshlab/FLIM-fit/assets/49083235/4c0bbcaf-257f-4653-8a9c-bbfddafab703)
+![image](https://github.com/walshlab/FLIM-fit/assets/49083235/9b2707ee-ca88-4dc9-8628-5a03ee4a14b3)
 
 Conclusion: Images with fewer photon does not give a good fitting result compared to the images with more photon, and it is necessary to develop a CNN model to restorat the images with fewer photons.
 
