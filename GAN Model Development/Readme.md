@@ -28,4 +28,5 @@ Two datasets with different photon numbers (peak of the decay curve) will be gen
 - Representative simulated decay curve. The photon number of the ideal decay = 2532. The photon number of the few-photon decay = 460
 ![image](https://github.com/walshlab/FLIM-fit/assets/49083235/0f1c62d4-237e-4f0f-9708-d8248aa30d27)
 - FLIM fitting result after deconvolution
-![image](https://github.com/walshlab/FLIM-fit/assets/49083235/547f0461-0d72-4ec3-a050-ce9facee22e9)
+![image](https://github.com/walshlab/FLIM-fit/assets/49083235/4c0bbcaf-257f-4653-8a9c-bbfddafab703)
+Conclusion: Images with fewer photon does not give a good fitting result compared to the images with more photon.
