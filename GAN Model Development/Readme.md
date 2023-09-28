@@ -9,7 +9,7 @@ Two datasets with different photon numbers (peak of the decay curve) will be gen
 - Normalized percentage a2 = 0.15 ~ 0.35 Real a2 = 1 ~ 8.75
 - t1 = 0.15 ~ 0.45
 - t2 = 1.5 ~ 3.5
-
+- 
 1.2 FLIM with fewer photons and low SNR
 - Fitting Peak 1 ~ 5
 - Normalized percentage a1 = 0.65 ~ 0.85 Real a1 = 0.65 ~ 4.25
