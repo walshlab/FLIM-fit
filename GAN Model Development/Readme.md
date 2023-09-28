@@ -38,4 +38,9 @@ Conclusion: Images with fewer photon does not give a good fitting result compare
 
 A generative adversarial network was developed to restorate the images (https://github.com/walshlab/FLIM-fit/blob/main/GAN%20Model%20Development/FLIM_GAN_Demo5.ipynb)
 This idea comes from the paper https://doi.org/10.1038/s42003-021-02938-w
-### 2.1 CNN architecture illustration
+### 2.1 Image Preprocessing
+The size of MNIST image is 28 x 28, and we will pad the images to be 32 x 32 to fit our FLIM dataset (256 x 256)
+### 2.2 CNN architecture illustration
+The GAN model was developed based on the [turtoial](https://machinelearningmastery.com/how-to-develop-a-pix2pix-gan-for-image-to-image-translation/)
+We applied the classical Pix2Pix GAN to achieve this translation with adjustment to 3D imgeas.
+The generator is an encoder-decoder model using a U-Net architecture. The model takes a source image (low photon) and generates a target image (high photon). It does this by first downsampling or encoding the input image down to a bottleneck layer, then upsampling or decoding the bottleneck representation to the size of the output image. 
