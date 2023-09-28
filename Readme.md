@@ -1,11 +1,11 @@
 # Introduction
 This Python code GUI aims to fit the fluorescence lifetime decay images and calculate the lifetime metrics of each cell.
 FLIMFit was written by Linghao Hu. To learn about the principles of FLIMfit, please refer to the book [W. Becker, The bh TCSPC Handbook].
-Please see the install instructions below, and also check out the details for more information in github (https://github.com/walshlab/FLIM-fit/tree/main).
+Please see the install instructions below, and also check out the details for more information in [github](https://github.com/walshlab/FLIM-fit/tree/main).
 # GUI:
 ![image](https://github.com/walshlab/FLIM-fit/assets/49083235/3cf8d1dd-5908-468c-b704-5d16e593dd00)
 # Installation:
-pip install FLIM-fit (https://pypi.org/project/FLIM-fit/)
+pip install [FLIM-fit](https://pypi.org/project/FLIM-fit/)
 ### System requirements: 
 Windows 
 ### Dependencies: 
@@ -20,7 +20,7 @@ FLIMfit relies on the following excellent packages (which are automatically inst
 ### Run Flimfit locally: 
 The quickest way to start is to open the GUI from a command line terminal. You might need to open an anaconda prompt if you did not add anaconda to the path: python -m flimfit
 # Step-by-step demo
-1. Download this folder of Test images(https://github.com/walshlab/FLIM-fit/blob/main/GUI/Test%20Images.zip) and unzip it. These are a subset of the test images.
+1. Download this folder of [Test images](https://github.com/walshlab/FLIM-fit/blob/main/GUI/Test%20Images.zip) and unzip it. These are a subset of the test images.
 2. Start the GUI with Python -m Flimfit.
 ## Image Read:
 3. Open a temporal point spread function (TPSF) image (X x Y x T, 256 x 256 x 256 (12.5ns)) from the folder with the OPEN TPSF button. The format can be .asc file (generated from SPCImage software (Becker & Hickl) -> Export -> Decay Traces) or .sdt file (generated from SPCM64(Becker & Hickl)).
