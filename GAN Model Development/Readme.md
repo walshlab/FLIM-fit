@@ -50,6 +50,7 @@ The discriminator is a deep convolutional neural network that performs image cla
 
 The generator is an encoder-decoder model using a U-Net architecture. The model takes a source image (low photon) and generates a target image (high photon). It does this by first downsampling or encoding the input image down to a bottleneck layer, then upsampling or decoding the bottleneck representation to the size of the output image. 
 The encoder and decoder of the generator are comprised of standardized blocks of convolutional, batch normalization, dropout, and activation layers.
+
 ![image](https://github.com/walshlab/FLIM-fit/assets/49083235/ac1e2834-befe-4328-8af7-87e1327326d3)
 
 
