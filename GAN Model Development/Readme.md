@@ -53,4 +53,8 @@ The encoder and decoder of the generator are comprised of standardized blocks of
 
 ![image](https://github.com/walshlab/FLIM-fit/assets/49083235/ac1e2834-befe-4328-8af7-87e1327326d3)
 
-
+### 2.2 GAN Training
+Training involves a fixed number of training iterations. There are 3000 TPSF images in the training dataset. One epoch is one iteration through this number of examples, with a batch size of 10 means 300 training steps. The model will run for 50 epochs, or a total of 15000 training steps.
+Each training step involves first selecting a batch of real examples, then using the generator to generate a batch of matching fake samples using the real source images. The discriminator is then updated with the batch of real images and then fake images.
+Next, the generator model is updated providing the real source images as input and providing class labels of 1 (real) and the real target images as the expected outputs of the model required for calculating loss. The generator has two loss scores as well as the weighted sum score returned from the call to train_on_batch(). We are only interested in the weighted sum score (the first value returned) as it is used to update the model weights.
+Finally, the loss for each update is reported to the console each training iteration.
